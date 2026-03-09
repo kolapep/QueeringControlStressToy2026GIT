@@ -157,9 +157,29 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Project Description\nDecomStress\n\nFor our project, we plan to combine
-    a potentially stress induced environment and a hacked fidget-toy controller,
-    reshaping how players engage with games and the controller itself. \n"
+  m_text: 'DecomStress
+
+    
+
+    We plan to combine a hacked fidget-toy controller
+    with a stress induced environment to see if fidget toys really work!
+
+    
+
+    Squeeze
+    different inputs to see your player move! Try different combinations and pressure
+    levels to sneak up on the mouse!
+
+    
+
+    By introducing this new controller,
+    the way we engage with a simple game and the controller itself is reshaped, challenging
+    conventional playstyles in the process. We know it isn''t very stressful at the
+    moment, but let us know what you think!
+
+    
+
+    Inanna, Vega, Candy, Whitney'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -427,7 +447,7 @@ Transform:
   m_GameObject: {fileID: 297871033}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.61, y: -2.89, z: 0}
+  m_LocalPosition: {x: -2, y: 0.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -661,7 +681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MouseScript
   player: {fileID: 297871037}
-  runDistance: 4
+  runDistance: 3
   stopDistance: 10
   catchDistance: 1
   respawnDistance: 6
@@ -733,7 +753,7 @@ Transform:
   m_GameObject: {fileID: 1404246173}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.03, y: 0, z: 0}
+  m_LocalPosition: {x: 5.67, y: 3.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
