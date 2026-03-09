@@ -3734,7 +3734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff067670a2d944c56b0e07bea0065d58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TESTCamMovement
-  speed: 0.005
+  speed: 0.01
   replayButton: {fileID: 1198788180}
 --- !u!212 &8812946928103864264
 SpriteRenderer:
