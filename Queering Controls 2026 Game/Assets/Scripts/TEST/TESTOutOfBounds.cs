@@ -23,7 +23,7 @@ public class TESTOutOfBounds : MonoBehaviour
         {
             restartButton.SetActive(true);
             GameObject.Find("Main Camera").GetComponent<TESTCamMovement>().enabled = false;
-            GameObject.Find("Player").GetComponent<PlayerControllerKeyboard>().enabled = false;
+            GameObject.Find("Player").GetComponent<PlayerController>().enabled = false;
         }
     }
 }
