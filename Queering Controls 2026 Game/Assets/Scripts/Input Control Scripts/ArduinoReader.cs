@@ -14,7 +14,7 @@ public class ArduinoReader : MonoBehaviour
 
     void Start()
     {
-        string portName = "/dev/cu.usbmodem101"; // 你的端口
+        string portName = "/dev/cu.usbmodem2101"; // 你的端口
         try
         {
             serialPort = new SerialPort(portName, 9600);
