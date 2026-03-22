@@ -20,5 +20,10 @@ public class RespawnOnHit : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+
+        if (col.gameObject.CompareTag("End_Wall"))
+        {
+            SceneManager.LoadScene("Maze Game Scene");
+        }
     }
 }

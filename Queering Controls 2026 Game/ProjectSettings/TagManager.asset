@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Maze_Wall
+  - End_Wall
   layers:
   - Default
   - TransparentFX

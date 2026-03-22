@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.3584906, g: 0.30602854, b: 0.26886794, a: 1}
+  m_Color: {r: 0.84705883, g: 0.5294118, b: 0.38039216, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -150,5 +150,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82eb9df31398845c382d65dddaf335e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TESTGameOver
-  playerObj: {fileID: 0}
   restartButton: {fileID: 0}
