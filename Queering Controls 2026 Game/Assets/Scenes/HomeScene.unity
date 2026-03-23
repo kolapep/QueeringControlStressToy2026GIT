@@ -2357,7 +2357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a079374526e80d4c93c18c50f381b0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HomeSceneSwitchControl
-  arduino: {fileID: 0}
+  arduino: {fileID: 2051750973}
   topLeftScene: Platform Game Scene
   topRightScene: Maze Game Scene
   bottomLeftScene: Flappy Bird Game Scene
@@ -2682,6 +2682,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005825066}
   m_CullTransparentMesh: 1
+--- !u!114 &2051750973 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 465477595681571917, guid: d85853ac518ee4be6ac9b12e71a5c05d, type: 3}
+  m_PrefabInstance: {fileID: 718817673}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05e50354ae4384aff9dda922d8f96101, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArduinoReader
 --- !u!1 &2111755723
 GameObject:
   m_ObjectHideFlags: 0
