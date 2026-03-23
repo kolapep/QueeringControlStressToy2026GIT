@@ -11,6 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FlappyBirdGameScene.unity
     guid: ad5818d5edd2147b0ab45cc3d5df2520
+  - enabled: 1
+    path: Assets/Scenes/HomeScene.unity
+    guid: 2155670fe405a904c8155a57a86e3e5e
+  - enabled: 1
+    path: Assets/Scenes/MazeGameScene.unity
+    guid: 72e70242da154cf408dbeaf45d75b72c
+  - enabled: 1
+    path: Assets/Scenes/PlatformGameScene.unity
+    guid: cbaccbbdf276db446b332f186e4c3909
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

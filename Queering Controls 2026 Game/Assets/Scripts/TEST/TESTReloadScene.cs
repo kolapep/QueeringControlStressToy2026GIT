@@ -19,6 +19,6 @@ public class TESTReloadScene : MonoBehaviour
 
     public void ReloadTestLevel()
     {
-        SceneManager.LoadScene("TESTGameplay");
+        SceneManager.LoadScene("HomeScene");
     }
 }

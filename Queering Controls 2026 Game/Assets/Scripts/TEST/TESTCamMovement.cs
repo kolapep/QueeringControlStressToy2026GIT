@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class TESTCamMovement : MonoBehaviour
 {
     public float speed = 1f;
-    private float endPos = 41f;
+    private float endPos = 50f;
     public GameObject replayButton;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
