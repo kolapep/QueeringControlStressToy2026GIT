@@ -5922,7 +5922,7 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6515592054892373234}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PlayerControllerKeyboard, Assembly-CSharp
         m_MethodName: Move
         m_Mode: 0
@@ -6527,7 +6527,6 @@ GameObject:
   - component: {fileID: 8492273874044567491}
   - component: {fileID: 8812946927515542281}
   - component: {fileID: 6164944083914256000}
-  - component: {fileID: 6515592054892373234}
   - component: {fileID: 2327116742479641488}
   - component: {fileID: 4756514802038842396}
   - component: {fileID: 1793723963}
@@ -6907,19 +6906,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6515592054892373234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4832303687601472205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fa2c40429f616644968a3302298779f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerControllerKeyboard
-  speed: 4
 --- !u!114 &6957098657427886529
 MonoBehaviour:
   m_ObjectHideFlags: 0

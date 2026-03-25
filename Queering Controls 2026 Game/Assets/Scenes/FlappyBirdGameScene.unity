@@ -488,6 +488,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 100f8954511ad474484a59a72077babf, type: 3}
+--- !u!4 &561621854 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7747276462550519363, guid: 100f8954511ad474484a59a72077babf, type: 3}
+  m_PrefabInstance: {fileID: 1139802434}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &688626321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -989,6 +994,96 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7747276462550519363, guid: 100f8954511ad474484a59a72077babf, type: 3}
   m_PrefabInstance: {fileID: 906256643}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1139802434
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 8588581587221225577}
+    m_Modifications:
+    - target: {fileID: 2335883830874312309, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_Name
+      value: CamWall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2335883830874312309, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2504318427054646876, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2504318427054646876, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2504318427054646876, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336695320937757498, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4336695320937757498, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_UsedByEffector
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512331211210481554, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: playerObj
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512331211210481554, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: restartButton
+      value: 
+      objectReference: {fileID: 892161032}
+    - target: {fileID: 7747276462550519363, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7747276462550519363, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 7747276462550519363, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 7747276462550519363, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7747276462550519363, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7747276462550519363, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7747276462550519363, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7747276462550519363, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7747276462550519363, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7747276462550519363, guid: 100f8954511ad474484a59a72077babf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5512331211210481554, guid: 100f8954511ad474484a59a72077babf, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 100f8954511ad474484a59a72077babf, type: 3}
 --- !u!1001 &1158592231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4085,6 +4180,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 376545098}
+  - {fileID: 561621854}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8588581587221225578
@@ -4099,7 +4195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff067670a2d944c56b0e07bea0065d58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TESTCamMovement
-  speed: 0.00098
+  speed: 0.009
   replayButton: {fileID: 1198788180}
 --- !u!212 &8812946928103864264
 SpriteRenderer:
