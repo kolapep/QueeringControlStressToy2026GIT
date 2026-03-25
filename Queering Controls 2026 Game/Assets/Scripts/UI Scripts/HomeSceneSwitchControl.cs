@@ -9,7 +9,6 @@ public class HomeSceneSwitchControl : MonoBehaviour
     public string topLeftScene;
     public string topRightScene;
     public string bottomLeftScene;
-    public string bottomRightScene;
 
     public float pressureMin; //Min amount of pressure needed
     private bool inputLocked = false;
@@ -28,15 +27,13 @@ public class HomeSceneSwitchControl : MonoBehaviour
         else if (x < pressureMin)
         {
             LoadScene(bottomLeftScene);
+            Debug.Log("bottom left");
         }
         else if (y > pressureMin)
         {
             LoadScene(topRightScene);
         }
-        else if (y < pressureMin)
-        {
-            LoadScene(bottomRightScene);
-        }
+        
     }
     void LoadScene(string sceneName)
     {

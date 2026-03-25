@@ -656,7 +656,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "SQUISH __ \nTO PLAY"
+  m_text: "SQUISH ORANGE \nTO PLAY"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e5c3801fc173c46f6b0dc2d575ffed21, type: 2}
   m_sharedMaterial: {fileID: 2228416790608617189, guid: e5c3801fc173c46f6b0dc2d575ffed21, type: 2}
@@ -986,7 +986,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "SQUISH __ \nTO PLAY"
+  m_text: "SQUISH GREEN \nTO PLAY"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e5c3801fc173c46f6b0dc2d575ffed21, type: 2}
   m_sharedMaterial: {fileID: 2228416790608617189, guid: e5c3801fc173c46f6b0dc2d575ffed21, type: 2}
@@ -2358,11 +2358,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HomeSceneSwitchControl
   arduino: {fileID: 2051750973}
-  topLeftScene: Platform Game Scene
-  topRightScene: Maze Game Scene
-  bottomLeftScene: Flappy Bird Game Scene
-  bottomRightScene: 
-  pressureMin: 0.5
+  topLeftScene: PlatformGameScene
+  topRightScene: MazeGameScene
+  bottomLeftScene: FlappyBirdGameScene
+  pressureMin: 0
 --- !u!4 &1691319035
 Transform:
   m_ObjectHideFlags: 0
@@ -2789,7 +2788,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "SQUISH __ \nTO PLAY"
+  m_text: "SQUISH YELLOW \nTO PLAY"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e5c3801fc173c46f6b0dc2d575ffed21, type: 2}
   m_sharedMaterial: {fileID: 2228416790608617189, guid: e5c3801fc173c46f6b0dc2d575ffed21, type: 2}
