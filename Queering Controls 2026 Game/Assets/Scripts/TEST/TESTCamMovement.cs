@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class TESTCamMovement : MonoBehaviour
 {
@@ -32,6 +33,7 @@ public class TESTCamMovement : MonoBehaviour
     public GameObject replayButton;
 
     private bool reachedEnd = false;
+    public ArduinoReader arduino;
 
     void Start()
     {
@@ -51,9 +53,13 @@ public class TESTCamMovement : MonoBehaviour
         if (Vector3.Distance(transform.position, pointB.position) < 0.01f)
         {
             reachedEnd = true;
+            replayButton.SetActive(true);
+        }
 
-            if (replayButton != null)
-                replayButton.SetActive(true);
+        if (reachedEnd == true && arduino != null && arduino.pressureDown > 100)
+        {
+            SceneManager.LoadScene("HomeScene");
+            Debug.Log("pressed");
         }
     }
 }

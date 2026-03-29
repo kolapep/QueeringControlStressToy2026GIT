@@ -1,24 +1,23 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 public class AutoPausePopUp : MonoBehaviour
 {
     public ArduinoReader arduino;
 
-    public float pressureMin = 0.1f; //Min amount of pressure needed
+    public float pressureMin = 0.1f;
 
     public GameObject exitPopUp;
-    public float idleTime = 20f;
+    public float idleTime = 10f;
     private float idleTimer;
+    private bool isIdle;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         exitPopUp.SetActive(false);
+        isIdle = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (arduino == null) return;
@@ -27,40 +26,44 @@ public class AutoPausePopUp : MonoBehaviour
         float y = (arduino.pressureUp - arduino.pressureDown) / 1023f;
         Vector2 input = new Vector2(x, y);
 
-        // Detect activity
         if (input.magnitude > pressureMin)
         {
-            idleTimer = 0f;
-
-            // Hide popup if player becomes active again
-            HidePopup();
+            idleTimer = 0f; // reset timer when active
         }
         else
         {
             idleTimer += Time.deltaTime;
+        }
 
-            if (idleTimer >= idleTime)
-            {
-                ShowPopup();
-                if (idleTimer >= idleTime + 5f)
-                    SceneManager.LoadScene("Home Scene");
+        if (idleTimer >= idleTime && !isIdle)
+        {
+            ShowPopup();
+            isIdle = true;
+            GameObject.Find("Player").GetComponent<PlayerController>().enabled = false;
+        }
 
-            }
+        if (arduino.pressureDown > 100 && isIdle)
+        {
+            SceneManager.LoadScene("HomeScene");
+        }
+
+        if (arduino.pressureLeft > 100 && isIdle)
+        {
+            isIdle = false;
+            idleTimer = 0f;
+
+            GameObject.Find("Player").GetComponent<PlayerController>().enabled = true;
+            HidePopup();
         }
     }
 
     void ShowPopup()
     {
-        if (!exitPopUp.activeSelf)
-        {
-            exitPopUp.SetActive(true);
-        }
+        exitPopUp.SetActive(true);
     }
+
     void HidePopup()
     {
-        if (!exitPopUp.activeSelf)
-        {
-            exitPopUp.SetActive(true);
-        }
+        exitPopUp.SetActive(false); 
     }
 }
